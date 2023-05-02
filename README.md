@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Book 3 ch 8: Client Install
+- https://github.com/nashville-software-school/bangazon-llc/blob/cohort-62/book-3-levelup/chapters/HR_CLIENT_INSTALL.md 
+- `fetchIt()`	This abstraction was written to make fetch calls less verbose, and automatically handle token authentication
+- `useCondensed()`	This React custom hook was written to make the descriptions of tickets condensed by default since some ticket description has be very long
+- `ticketStatus()`	This function exists twice in the application. Duplicate code is bad. Can you eliminate the duplication?
+- `.catch()`	You will notice that some of the fetch calls have a `.catch()` method chained to the end of them. To see their value, stop your API from running and see what happens when the fetch calls are made. Then comment out the `catch()` methods and see the difference.
