@@ -1,6 +1,7 @@
 import { isStaff } from "../../utils/isStaff"
 import "./Tickets.css"
 
+// employees can view all tickets
 export const TicketBody = ({ ticket }) => {
   return <div className="ticket__body">
     <i className="ticket__icon">{ticket.emergency ? "🚑" : ""}</i>
