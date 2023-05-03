@@ -47,7 +47,7 @@ export const TicketList = () => {
     <div className="activeTickets">{active}</div>
     <article className="tickets">
       {
-        tickets.map(ticket => (
+        tickets?.map(ticket => (
           <TicketCard key={`ticket--${ticket.id}`} ticket={ticket} />
         ))
       }
