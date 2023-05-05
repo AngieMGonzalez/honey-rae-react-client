@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-## Server Side Code
+# Server Side Code
 - https://github.com/AngieMGonzalez/honey-rae-server 
 
 ## Book 3 ch 8: Client Install
