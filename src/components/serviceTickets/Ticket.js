@@ -94,7 +94,7 @@ export const Ticket = () => {
           </div>
           {
             isStaff()
-              ? <></>
+              ? <>👾</> // steve has an empty string ""
               : <button onClick={deleteTicketEvent}>Delete</button>
           }
         </footer>
